@@ -1,0 +1,12 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::number
+
+display:
+    path: /display
+    controller: App\Controller\DisplayDataController::display
+
+
+callback:
+    path: /auth/return
+    controller: App\Controller\AuthReturnController::callback
